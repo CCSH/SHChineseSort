@@ -26,7 +26,6 @@
 		5C4EF49F21539C5700505E4A /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4EF49221539C5700505E4A /* NSString+MJExtension.m */; };
 		5C4EF4A021539C5700505E4A /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4EF49321539C5700505E4A /* MJPropertyKey.m */; };
 		5C4EF4A121539C5700505E4A /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4EF49721539C5700505E4A /* MJFoundation.m */; };
-		5C4EF4A421539C9800505E4A /* NSString+SHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4EF4A321539C9800505E4A /* NSString+SHExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,8 +85,6 @@
 		5C4EF49521539C5700505E4A /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
 		5C4EF49621539C5700505E4A /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
 		5C4EF49721539C5700505E4A /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
-		5C4EF4A221539C9800505E4A /* NSString+SHExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SHExtension.h"; sourceTree = "<group>"; };
-		5C4EF4A321539C9800505E4A /* NSString+SHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SHExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,8 +171,6 @@
 		5C4EF45921539A4D00505E4A /* SHChineseSort */ = {
 			isa = PBXGroup;
 			children = (
-				5C4EF4A221539C9800505E4A /* NSString+SHExtension.h */,
-				5C4EF4A321539C9800505E4A /* NSString+SHExtension.m */,
 				5C4EF45A21539A5F00505E4A /* SHChineseSort.h */,
 				5C4EF45B21539A5F00505E4A /* SHChineseSort.m */,
 			);
@@ -345,7 +340,6 @@
 				5C4EF49C21539C5700505E4A /* MJExtensionConst.m in Sources */,
 				5C4EF45C21539A5F00505E4A /* SHChineseSort.m in Sources */,
 				5C4EF49A21539C5700505E4A /* MJProperty.m in Sources */,
-				5C4EF4A421539C9800505E4A /* NSString+SHExtension.m in Sources */,
 				5C4EF42C21539A3400505E4A /* ViewController.m in Sources */,
 				5C4EF49B21539C5700505E4A /* NSObject+MJCoding.m in Sources */,
 				5C4EF49E21539C5700505E4A /* NSObject+MJClass.m in Sources */,

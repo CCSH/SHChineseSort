@@ -8,7 +8,6 @@
 
 #import "SHChineseSort.h"
 #import "MJExtension.h"
-#import "NSString+SHExtension.h"
 
 @interface SHChineseSort ()
 
@@ -45,7 +44,7 @@
             
             SHChineseSort *model = [[SHChineseSort alloc]init];
             model.obj = obj;
-            model.pinyin = name.pinyin;
+            model.pinyin = [self pinyinWithStr:name];
             
             NSString *firstName;
             
@@ -151,6 +150,18 @@
     model.originalArr = originalArr;
     
     return model;
+}
+
++ (NSString *)pinyinWithStr:(NSString *)str{
+    
+    if (str.length) {
+        //系统
+        NSMutableString *pinyin = [NSMutableString stringWithString:str];
+        CFStringTransform((CFMutableStringRef)pinyin, NULL, kCFStringTransformToLatin, false);
+        return [[[pinyin stringByFoldingWithOptions:NSDiacriticInsensitiveSearch locale:[NSLocale currentLocale]] lowercaseString] stringByReplacingOccurrencesOfString:@" " withString:@""];
+    }else{
+        return str;
+    }
 }
 
 @end
